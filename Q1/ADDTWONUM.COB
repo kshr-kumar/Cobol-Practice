@@ -1,0 +1,17 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. ADDTWONUM.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 WS-NUM1 PIC 9(5).
+       01 WS-NUM2 PIC 9(5).
+       01 WS-RESULT PIC 9(5).
+
+       PROCEDURE DIVISION.
+           DISPLAY "ENTER NUM1"
+           ACCEPT WS-NUM1
+           DISPLAY "ENTER NUM2"
+           ACCEPT WS-NUM2
+           COMPUTE WS-RESULT = WS-NUM1 + WS-NUM2
+           DISPLAY "TOTAL IS " WS-RESULT
+           STOP RUN.
+           
