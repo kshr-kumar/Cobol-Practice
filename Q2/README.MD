@@ -1,0 +1,1 @@
+# COBOL program that calculates and displays the factorial of a number entered by the user:
